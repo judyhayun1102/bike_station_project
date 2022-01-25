@@ -1,16 +1,3 @@
-"""CSC108: Fall 2020 -- Assignment 2: Rent-a-bike
-
-This code is provided solely for the personal and private use of
-students taking the CSC108 course at the University of
-Toronto. Copying for purposes other than this use is expressly
-prohibited. All forms of distribution of this code, whether as given
-or with any changes, are expressly prohibited.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) 2020 Mario Badr, Jennifer Campbell, Tom Fairgrieve,
-Diane Horton, Michael Liut, Jacqueline Smith, and Anya Tafliovich.
-"""
-
 import math
 from typing import List, TextIO
 
@@ -19,9 +6,6 @@ we mean a list containing station data.
 
 You can read "Station" in a type contract as:
 List[int, str, float, float, int, int, int, bool, bool]
-
-where the values at each index represent the station data as described in the 
-handout on Quercus.
 """
 
 
@@ -57,7 +41,7 @@ HANDOUT_STATIONS = [
 #########################################
 
 
-####### BEGIN HELPER FUNCTIONS ####################
+####### HELPER FUNCTIONS ####################
 
 def is_number(value: str) -> bool:
     """Return True if and only if value represents a decimal number.
